@@ -1,0 +1,86 @@
+.BG {
+	position: relative;
+	width: 1920px;
+	height: 1080px;
+}
+.img2 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 50%;
+	left: -10%;
+	animation: mymove 5s linear infinite ;
+}
+
+@keyframes mymove {
+	from {left: -10%;}
+	to {left: 100%}
+}
+.img3 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 25%;
+	left: -10%;
+	animation: mymove1 4s linear infinite ;
+}
+
+@keyframes mymove1 {
+	from {left: -10%;}
+	to {left: 100%}
+}
+.img4 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 75%;
+	left: -10%;
+	animation: mymove2 6s linear infinite ;
+}
+
+@keyframes mymove2 {
+	from {left: -10%;}
+	to {left: 100%}
+}
+.img5 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 60%;
+	left: -10%;
+	animation: mymove3 7s linear infinite ;
+}
+
+@keyframes mymove3 {
+	from {left: -10%;}
+	to {left: 100%}
+}
+.img6 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 95%;
+	left: -10%;
+	animation: mymove3 8s linear infinite ;
+}
+
+@keyframes mymove4 {
+	from {left: -10%;}
+	to {left: 100%}
+}
+
+.CVD {
+	position: absolute;
+	height: 0px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: popup 5s linear 2;
+	animation-delay: 2s;
+	animation-direction: alternate;
+}
+
+@keyframes popup {
+	from {height: 0px;}
+	to {height:300px ;}
+}
